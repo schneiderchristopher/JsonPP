@@ -7,7 +7,7 @@ namespace JsonPP {
 	static class Parser
 	{
 	public:
-		static void parse(std::string text);
+		static void parse(std::string& text);
 
 	private:
 		std::map<std::string, std::any> values;
